@@ -9,4 +9,26 @@
     tools:context=".Connection">
 
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valider_connection"
+        android:id="@+id/connection_button"
+        android:layout_marginBottom="162dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="37dp"
+        android:layout_marginTop="88dp" />
 </RelativeLayout>
