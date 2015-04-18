@@ -1,12 +1,12 @@
 package me.com.android_app;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class Connection extends ActionBarActivity {
+public class Connection extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
