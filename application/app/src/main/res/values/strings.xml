@@ -3,4 +3,29 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_inscription">Inscription</string>
+    <string-array name="sexe">
+        <item>Un couple</item>
+        <item>Un homme</item>
+        <item>Une femme</item>
+    </string-array>
+
+    <string-array name="region">
+        <item>Ile de France</item>
+        <item>Sud</item>
+        <item>Nord</item>
+    </string-array>
+        <string-array name="departement">
+            <item>94 - Val de Marne</item>
+            <item>75 - Paris</item>
+            <item>12 - Nose</item>
+        </string-array>
+    <string-array name="ville">
+        <item>paris</item>
+        <item>bla</item>
+        <item>BLAbal</item>
+        <item>bla</item>
+        <item>BLAbadel</item>
+    </string-array>
+
 </resources>
