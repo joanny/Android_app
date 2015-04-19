@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.Sign_up;
 
 /**
  * Created by mekinconnu on 19/04/2015.

@@ -1,24 +1,39 @@
-package com.example.Init;
+package com.example.Sign_up;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Spinner;
 
+import com.example.Init.R;
 
-public class sign_up extends Activity {
+public class Inscription extends Activity {
+    //rivate InscriptionController inscriptionController;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
+        setContentView(R.layout.activity_inscription);
+        AdapterMaker adapterMaker = new AdapterMaker();
+        Spinner spinner = (Spinner) findViewById(R.id.sexe);
+        AdapterMaker.setAdapter(R.array.sexe, getBaseContext(), spinner);
+        spinner = (Spinner) findViewById(R.id.region);
+        AdapterMaker.setAdapter(R.array.region,getBaseContext(),spinner);
+        spinner = (Spinner) findViewById(R.id.departement);
+        AdapterMaker.setAdapter(R.array.departement,getBaseContext(),spinner);
+        spinner = (Spinner) findViewById(R.id.ville);
+        AdapterMaker.setAdapter(R.array.ville,getBaseContext(),spinner);
+
     }
+
+
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_sign_up, menu);
+        getMenuInflater().inflate(R.menu.menu_inscription, menu);
         return true;
     }
 

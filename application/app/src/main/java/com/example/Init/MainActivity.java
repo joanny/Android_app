@@ -10,6 +10,7 @@ import android.view.View.OnClickListener;
 import android.content.Intent;
 
 import com.example.Init.R;
+import com.example.Sign_up.Inscription;
 
 
 public class MainActivity extends Activity {
@@ -25,14 +26,14 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        intent_sign_up = new Intent(this, sign_up.class );
+        intent_sign_up = new Intent(this,Inscription.class );
         intent_recherche = new Intent(this, find.class );
 
         connecter = (Button)findViewById(R.id.login);
         sign_up =  (Button)findViewById(R.id.sign_up);
 
         connecter.setOnClickListener(connect);
-        sign_up.setOnClickListener(this.Sign_up);
+        sign_up.setOnClickListener(Sign_up);
     }
 
 
@@ -70,10 +71,10 @@ public class MainActivity extends Activity {
         }
     };
 
-    private OnClickListener Sign_up = new OnClickListener() {
+    private OnClickListener Sign = new OnClickListener() {
         @Override
         public void onClick(View v) {
-          //  startActivity(intent);
+          startActivity(intent_sign_up);
         }
     };
 }
