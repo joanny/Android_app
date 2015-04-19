@@ -2,6 +2,7 @@ package com.example.Init;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -34,6 +35,8 @@ public class MainActivity extends Activity {
 
         connecter.setOnClickListener(connect);
         sign_up.setOnClickListener(Sign);
+
+
     }
 
 
@@ -59,7 +62,6 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-
     /*
             Event
      */
@@ -67,14 +69,15 @@ public class MainActivity extends Activity {
     private OnClickListener connect = new OnClickListener() {
         @Override
         public void onClick(View v) {
-           startActivity(intent_sign_up);
+           startActivity(intent_recherche);
+
         }
     };
 
     private OnClickListener Sign = new OnClickListener() {
         @Override
         public void onClick(View v) {
-          startActivity(intent_sign_up);
+         startActivity(intent_sign_up);
         }
     };
 }

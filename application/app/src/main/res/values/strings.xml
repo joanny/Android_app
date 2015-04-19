@@ -35,6 +35,7 @@
         <item>bla</item>
         <item>BLAbadel</item>
     </string-array>
+    <string name="title_activity_mes_contact">MesContact</string>
 
 
 </resources>
