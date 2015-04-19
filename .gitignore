@@ -13,3 +13,7 @@ hs_err_pid*
 
 application/.idea/misc.xml
 application/app/src/main/AndroidManifest.xml
+
+application/.idea/misc.xml
+
+application/app/src/main/res/values/strings.xml
