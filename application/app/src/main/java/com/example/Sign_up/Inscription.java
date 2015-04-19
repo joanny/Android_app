@@ -1,4 +1,4 @@
-package com.example.Sign_up;
+package com.example.sign_up;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Spinner;
 
-import com.example.Init.R;
+import com.example.init.R;
 
 public class Inscription extends Activity {
     //Private InscriptionController inscriptionController;
