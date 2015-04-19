@@ -17,12 +17,17 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".sign_up"
             android:label="@string/title_activity_sign_up" >
         </activity>
         <activity
             android:name=".find"
             android:label="@string/title_activity_find" >
+=======
+            android:name=".Inscription"
+            android:label="@string/title_activity_inscription" >
+>>>>>>> origin/master
         </activity>
     </application>
 
