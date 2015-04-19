@@ -1,4 +1,4 @@
-package com.example.Sign_up;
+package com.example.sign_up;
 
 import android.content.Context;
 import android.widget.ArrayAdapter;

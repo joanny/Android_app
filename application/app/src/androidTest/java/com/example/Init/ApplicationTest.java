@@ -1,4 +1,4 @@
-package com.example.Init;
+package com.example.init;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

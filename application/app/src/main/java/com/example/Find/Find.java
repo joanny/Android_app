@@ -1,13 +1,11 @@
-package com.example.Find;
+package com.example.find;
 
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.Toast;
 
+<<<<<<< HEAD
 import com.example.Init.*;
 import com.example.Init.R;
 import com.lorentzos.flingswipe.SwipeFlingAdapterView;
@@ -16,10 +14,9 @@ import java.util.ArrayList;
 
 import com.lorentzos.flingswipe.*;
 
-
-import butterknife.ButterKnife;
-import butterknife.InjectView;
-import butterknife.OnClick;
+=======
+import java.util.ArrayList;
+>>>>>>> origin/master
 
 
 public class Find extends Activity {
