@@ -9,7 +9,7 @@ import android.widget.Spinner;
 import com.example.Init.R;
 
 public class Inscription extends Activity {
-    //rivate InscriptionController inscriptionController;
+    //Private InscriptionController inscriptionController;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,6 @@ public class Inscription extends Activity {
         AdapterMaker.setAdapter(R.array.departement,getBaseContext(),spinner);
         spinner = (Spinner) findViewById(R.id.ville);
         AdapterMaker.setAdapter(R.array.ville,getBaseContext(),spinner);
-
     }
 
 

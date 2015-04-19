@@ -8,7 +8,11 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
-import com.lorentzos.flingswipe;
+import com.lorentzos.flingswipe.SwipeFlingAdapterView;
+
+import java.util.ArrayList;
+
+import com.lorentzos.flingswipe.*;
 import java.util.ArrayList;
 
 import butterknife.ButterKnife;
@@ -28,7 +32,7 @@ public class Find extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my);
+        setContentView(R.layout.activity_find);
         ButterKnife.inject(this);
 
 
@@ -60,12 +64,12 @@ public class Find extends Activity {
                 //Do something on the left!
                 //You also have access to the original object.
                 //If you want to use it just cast it (String) dataObject
-                makeToast(MyActivity.this, "Left!");
+                makeToast(Find.this, "Left!");
             }
 
             @Override
             public void onRightCardExit(Object dataObject) {
-                makeToast(MyActivity.this, "Right!");
+                makeToast(Find.this, "Right!");
             }
 
             @Override
@@ -90,7 +94,7 @@ public class Find extends Activity {
         flingContainer.setOnItemClickListener(new SwipeFlingAdapterView.OnItemClickListener() {
             @Override
             public void onItemClicked(int itemPosition, Object dataObject) {
-                makeToast(MyActivity.this, "Clicked!");
+                makeToast(Find.this, "Clicked!");
             }
         });
 
@@ -113,8 +117,4 @@ public class Find extends Activity {
     public void left() {
         flingContainer.getTopCardListener().selectLeft();
     }
-
-
-
-
 }

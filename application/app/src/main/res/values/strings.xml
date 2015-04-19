@@ -23,11 +23,11 @@
         <item>Sud</item>
         <item>Nord</item>
     </string-array>
-        <string-array name="departement">
-            <item>94 - Val de Marne</item>
-            <item>75 - Paris</item>
-            <item>12 - Nose</item>
-        </string-array>
+    <string-array name="departement">
+        <item>94 - Val de Marne</item>
+        <item>75 - Paris</item>
+        <item>12 - Nose</item>
+    </string-array>
     <string-array name="ville">
         <item>paris</item>
         <item>bla</item>
