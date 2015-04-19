@@ -26,14 +26,14 @@ public class Find extends Activity {
     private ArrayAdapter<String> arrayAdapter;
     private int i;
 
-    @InjectView(R.id.frame) SwipeFlingAdapterView flingContainer;
+  //  @InjectView(R.id.frame) SwipeFlingAdapterView flingContainer;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_find);
-        ButterKnife.inject(this);
+       // setContentView(R.layout.activity_find);
+ /*      ButterKnife.inject(this);
 
 
         al = new ArrayList<>();
@@ -97,24 +97,24 @@ public class Find extends Activity {
                 makeToast(Find.this, "Clicked!");
             }
         });
-
+*/
     }
 
     static void makeToast(Context ctx, String s){
-        Toast.makeText(ctx, s, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(ctx, s, Toast.LENGTH_SHORT).show();
     }
 
 
-    @OnClick(R.id.right)
+
     public void right() {
         /**
          * Trigger the right event manually.
          */
-        flingContainer.getTopCardListener().selectRight();
+      //  flingContainer.getTopCardListener().selectRight();
     }
 
-    @OnClick(R.id.left)
+
     public void left() {
-        flingContainer.getTopCardListener().selectLeft();
+     //   flingContainer.getTopCardListener().selectLeft();
     }
 }
