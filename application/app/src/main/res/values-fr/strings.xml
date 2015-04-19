@@ -2,7 +2,7 @@
     <string name="app_name">X-app</string>
     <string name="action_settings">Settings</string>
     <string name="valid_connection">Se connecter</string>
-    <string name="Mail">Adresse mail</string>
+    <string name="Mail">Mail</string>
     <string name="Password">Mot de passe</string>
     <string name="sign_up">Crée un compte</string>
 </resources>
